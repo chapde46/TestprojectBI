@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-22T12:38:31 IST" name="Default suite" finished-at="2022-11-22T12:39:06 IST" duration-ms="35464">
+    <groups>
+    </groups>
+    <test started-at="2022-11-22T12:38:31 IST" name="Default test" finished-at="2022-11-22T12:39:06 IST" duration-ms="35464">
+      <class name="loginmodule.TestNg_upstox_POM_DDF">
+        <test-method is-config="true" signature="TC1()[pri:0, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e]" started-at="2022-11-22T12:38:31 IST" name="TC1" finished-at="2022-11-22T12:38:44 IST" duration-ms="13231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method is-config="true" signature="TC2()[pri:0, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e]" started-at="2022-11-22T12:38:44 IST" name="TC2" finished-at="2022-11-22T12:38:44 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method signature="TC3()[pri:1, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e]" started-at="2022-11-22T12:38:44 IST" name="TC3" finished-at="2022-11-22T12:39:04 IST" duration-ms="19715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method is-config="true" signature="TC10(org.testng.ITestResult)[pri:0, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e]" started-at="2022-11-22T12:39:04 IST" name="TC10" finished-at="2022-11-22T12:39:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC3 status=SUCCESS method=TestNg_upstox_POM_DDF.TC3()[pri:1, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10 -->
+        <test-method is-config="true" signature="TC2()[pri:0, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e]" started-at="2022-11-22T12:39:04 IST" name="TC2" finished-at="2022-11-22T12:39:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method signature="TC4()[pri:2, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e]" started-at="2022-11-22T12:39:04 IST" name="TC4" finished-at="2022-11-22T12:39:06 IST" duration-ms="2431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method is-config="true" signature="TC10(org.testng.ITestResult)[pri:0, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e]" started-at="2022-11-22T12:39:06 IST" name="TC10" finished-at="2022-11-22T12:39:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC4 status=SUCCESS method=TestNg_upstox_POM_DDF.TC4()[pri:2, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10 -->
+        <test-method signature="TC5(org.openqa.selenium.WebDriver)[pri:3, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e]" started-at="2022-11-22T12:39:06 IST" name="TC5" finished-at="2022-11-22T12:39:06 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [TC5] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [TC5] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+        <test-method is-config="true" signature="TC11()[pri:0, instance:loginmodule.TestNg_upstox_POM_DDF@7d8995e]" started-at="2022-11-22T12:39:06 IST" name="TC11" finished-at="2022-11-22T12:39:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11 -->
+      </class> <!-- loginmodule.TestNg_upstox_POM_DDF -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
